@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="528.0" prefWidth="897.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab4.lab4client.ClientController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="Добро пожаловать!" translateY="-150.0">
+      <font>
+         <Font name="Garamond" size="22.0" />
+      </font>
+   </Label>
+   <Label fx:id="Enter" alignment="TOP_CENTER" prefHeight="25.0" prefWidth="557.0" text="Для начала работы нажмите на кнопку &quot;Войти&quot;" textFill="#4a89ab" translateY="-100.0">
+      <font>
+         <Font name="Garamond" size="20.0" />
+      </font>
+   </Label>
+    <Button onAction="#onHelloButtonClick" prefHeight="30.0" prefWidth="678.0" style="-fx-background-color: #0000ff;" text="Войти" translateY="100.0">
+      <textFill>
+         <RadialGradient centerX="0.5497237569060773" centerY="0.5" radius="0.5">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+               <Stop offset="0.5353985922409559">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color red="1.0" green="1.0" blue="1.0" />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+      <font>
+         <Font name="Garamond" size="18.0" />
+      </font></Button>
+</VBox>
