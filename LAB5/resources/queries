@@ -1,0 +1,4 @@
+add name = bmw max_speed = 100 tank_capacity = 300 price = 10000 engine_power = 200
+change bmw price = 5000
+del max_speed >= 100
+select name = bmw
